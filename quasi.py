@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import numpy as np
 import math
 import time
@@ -11,7 +5,6 @@ import matplotlib.pyplot as plt
 import itertools
 
 
-# In[2]:
 
 
 def rosen(x):
