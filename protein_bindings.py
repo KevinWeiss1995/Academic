@@ -10,9 +10,16 @@ from sklearn import manifold
 
 
 ##Import file list (even indicies are closed, odd are open)
-files_list = ['/users/kevinweiss/masters_project/1anf.corr_1.txt', '/users/kevinweiss/masters_project/1ez9.corr_1.txt',
-         '/users/kevinweiss/masters_project/1fqc.corr_2.txt', '/users/kevinweiss/masters_project/1fqb.corr_3.txt','/users/kevinweiss/masters_project/1mpd.corr_4.txt',
-         '/users/kevinweiss/masters_project/3hpi.corr_5.txt']
+## Import file list (even indices are closed, odd are open)
+files_list = [
+    'corr_data/1anf.corr_1.txt',
+    'corr_data/1ez9.corr_1.txt',
+    'corr_data/1fqc.corr_2.txt',
+    'corr_data/1fqb.corr_3.txt',
+    'corr_data/1mpd.corr_4.txt',
+    'corr_data/3hpi.corr_5.txt'
+]
+
 
 
 ##Convert data to CSV
