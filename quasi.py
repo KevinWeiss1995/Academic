@@ -160,7 +160,6 @@ def newton_method(func, x0, backtrack=False, gamma=0.001, p0=None, h=1e-7, tol=1
     return np.array(path_x), max_iter, elapsed_time, 1
 
 
-# Example usage
 if __name__ == "__main__":
     initial_point = 0.9 * np.ones(8)
     p0 = np.array([0, 1, 2])
